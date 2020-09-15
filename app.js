@@ -8,12 +8,10 @@ const todoItem = document.querySelector('.todo-item');
 // EVENT LISTENERS 
 todoBtn.addEventListener('click', addTodo);
 todoBtn.addEventListener('keyup', addTodoEnter);
-
 todoList.addEventListener('click', deleteItem);
 
 // FUNCTIONS
 function addTodo(event) {
-    console.log(event);
     // Prevent form from submitting
     event.preventDefault();
 
